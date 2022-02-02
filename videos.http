@@ -1,0 +1,7 @@
+@api = http://localhost:5000
+
+
+GET {{api}}/videos
+
+###
+GET {{api}}/video/1
