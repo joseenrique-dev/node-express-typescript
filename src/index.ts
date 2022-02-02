@@ -1,9 +1,7 @@
-import app from './app'
-import './database'
+import app from './app';
+import config from './config';
+import './database';
 
-app.listen(3009,()=>{
-    console.log('Server is run on port 3009.')
-
-})
-
-
+app.listen(app.get('port'), () => {
+  console.log('Server is run on port ', app.get('port'));
+});
