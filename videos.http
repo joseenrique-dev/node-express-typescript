@@ -5,7 +5,7 @@
 GET {{api}}/videos
 
 ###Get single videos
-GET {{api}}/video/1
+GET {{api}}/video/61fa2c79b802ed554e757eb4
 
 ###Send Video Request
 POST {{api}}/video
@@ -18,7 +18,12 @@ Content-Type: application/json
 }
 
 ###Remove video
-DELETE  {{api}}/video/1
+DELETE  {{api}}/video/61fa2c79b802ed554e757eb1
 
 ###Update video
-PUT  {{api}}/video/1
+PUT  {{api}}/video/61fa3636c97a1b34112f9b8d
+Content-Type: application/json
+
+{
+    "title":"Updated Title"
+}
