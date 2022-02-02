@@ -1,0 +1,16 @@
+import { RequestHandler } from 'express';
+
+export const getVideos: RequestHandler = (req, res) =>
+  res.json('getting videos');
+
+export const getVideo: RequestHandler = (req, res) =>
+  res.json('getting single video...');
+
+export const createVideo: RequestHandler = (req, res) =>
+  res.json('getting videos');
+
+export const updateVideo: RequestHandler = (req, res) =>
+  res.json('getting videos');
+
+export const removeVideo: RequestHandler = (req, res) =>
+  res.json('getting videos');
