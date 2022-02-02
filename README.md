@@ -27,3 +27,4 @@ Content-Type: application/json
 {
     "title":"Updated Title"
 }
+![mongo](https://user-images.githubusercontent.com/20423639/152250447-894967fb-f035-4493-a896-575a2d02a601.PNG)
