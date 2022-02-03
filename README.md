@@ -1,5 +1,9 @@
 # node-express-typescript
 #Api Routes example.
+## Add REST Client for Visual Studio Code to test api, check file *.http. 
+Name: REST Client
+
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=humao.rest-client
 
 ###Get all videos
 GET /videos
